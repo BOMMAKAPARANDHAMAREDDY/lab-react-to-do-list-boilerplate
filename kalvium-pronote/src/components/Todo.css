@@ -1,0 +1,53 @@
+* {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgba(11, 54, 224, 0.561);
+    padding: 40px;
+}
+
+.addTodo {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+    width: 20%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.addTodo button {
+    height: 30px;
+    width: 7%;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 10px;
+}
+.afterAdding{
+    display: flex;
+    justify-content: center;
+}
+.afterAdding p{
+    height: 40px;
+    width: 20%;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+.afterAdding button{
+    height: 30px;
+    width: 7%;
+    background-color: yellow;
+    margin-top: 3.5%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
